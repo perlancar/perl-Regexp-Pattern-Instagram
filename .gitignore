@@ -1,0 +1,5 @@
+Regexp-Pattern-Instagram-*
+.build
+*~
+nytprof*
+.DS_Store
