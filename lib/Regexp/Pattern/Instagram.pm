@@ -21,7 +21,7 @@ MARKDOWN
             {str=>'perlancar', anchor=>1, matches=>1},
             {str=>'perl ancar', anchor=>1, matches=>0, summary=>"Contains invalid character (space)"},
             {str=>'perl.ancar', anchor=>1, matches=>1},
-            {str=>'per.lan.car', anchor=>1, matches=>1},
+            {str=>'per.lan.c.a.r', anchor=>1, matches=>1},
             {str=>'__perlancar__', anchor=>1, matches=>1},
             {str=>'a234567890b234567890c234567890', anchor=>1, matches=>1},
             {str=>'a234567890b234567890c234567890_', anchor=>1, matches=>0, summary=>"Too long"},
